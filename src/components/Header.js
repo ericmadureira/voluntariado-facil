@@ -15,7 +15,7 @@ const Header = ({ title }) => {
   const classes = useStyles();
 
   return (
-    <div>
+    <header>
       <AppBar position="static">
         <Toolbar  className={classes.toolbar}>
           <IconButton edge="start" color="inherit" aria-label="menu">
@@ -27,7 +27,7 @@ const Header = ({ title }) => {
           <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
-    </div>
+    </header>
   )
 };
 
