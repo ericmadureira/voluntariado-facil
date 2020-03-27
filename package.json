@@ -12,8 +12,10 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "express": "^4.17.1",
+    "i18next": "^19.3.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-i18next": "^11.3.4",
     "react-scripts": "3.4.1",
     "typeface-roboto": "^0.0.75"
   },

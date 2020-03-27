@@ -14,9 +14,8 @@ Platform for easy volunteering, built on React, Node React Native and Material U
 - Apollo + Apollo Server
 - Postgres
 - Material UI
+- [React i18n](https://react.i18next.com/)
 
 ## Deployment
-To deploy the react app in Netlify
-- [netlify guide](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/)
-To deploy the server in Heroku
-- [heroku guide](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
+- [To deploy the react app in Netlify](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/)
+- [To deploy the server in Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
