@@ -3,6 +3,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { AppBar, Toolbar, IconButton, Typography, Button } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles(theme => ({
   toolbar: {
@@ -16,15 +17,21 @@ const Header = ({ title }) => {
 
   return (
     <header>
-      <AppBar position="static">
+      <AppBar position='static'>
         <Toolbar  className={classes.toolbar}>
-          <IconButton edge="start" color="inherit" aria-label="menu">
+          <IconButton edge='start' color='inherit' aria-label='menu'>
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" >
-            {title}
+          <Typography variant='h6' >
+            <Link to='/'>
+              {title}
+            </Link>
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button color='inherit'>
+            <Link to='/login'>
+              Login
+            </Link>
+          </Button>
         </Toolbar>
       </AppBar>
     </header>
