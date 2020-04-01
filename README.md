@@ -1,4 +1,4 @@
-Platform for easy volunteering, built on React, Node React Native and Material UI.
+Platform for volunteer teaching, built on React, Node, React Native and Material-UI
 
 ## How to run
 1. clone the repository
