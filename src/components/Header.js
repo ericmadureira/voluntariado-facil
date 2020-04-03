@@ -5,12 +5,17 @@ import { AppBar, Toolbar, IconButton, Typography, Button } from '@material-ui/co
 import MenuIcon from '@material-ui/icons/Menu';
 import { Link } from 'react-router-dom';
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles({
   toolbar: {
     display: 'flex',
     justifyContent: 'space-between',
   },
-}));
+  navLink: {
+    padding: '0 10px',
+    fontSize: '18px',
+    fontWeight: 'bold',
+  },
+});
 
 const Header = ({ title }) => {
   const classes = useStyles();
@@ -18,20 +23,36 @@ const Header = ({ title }) => {
   return (
     <header>
       <AppBar position='static'>
-        <Toolbar  className={classes.toolbar}>
-          <IconButton edge='start' color='inherit' aria-label='menu'>
-            <MenuIcon />
-          </IconButton>
+        <Toolbar className={classes.toolbar}>
+
           <Typography variant='h6' >
             <Link to='/'>
               {title}
             </Link>
           </Typography>
-          <Button color='inherit'>
-            <Link to='/login'>
+
+          <div>
+            <Link to='#about' className={classes.navLink}>
+              About
+            </Link>
+
+            <Link to='#cta' className={classes.navLink}>
+              Do the difference!
+            </Link>
+
+            <Link to='#contact' className={classes.navLink}>
+              Contact
+            </Link>
+
+            <Link to='/login' className={classes.navLink}>
               Login
             </Link>
-          </Button>
+
+            <IconButton edge='start' color='inherit' aria-label='menu' className='menuButton'>
+              <MenuIcon />
+            </IconButton>
+          </div>
+
         </Toolbar>
       </AppBar>
     </header>
