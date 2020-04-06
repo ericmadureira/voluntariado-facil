@@ -2,8 +2,8 @@ import Sequelize from 'sequelize';
 
 const sequelize = new Sequelize(
   process.env.DATABASE,
-  process.env.DATABASE_USER,
-  process.env.DATABASE_PASSWORD,
+  process.env.POSTGRES_USER,
+  process.env.POSTGRES_PASSWORD,
   {
     dialect: 'postgres',
   },
