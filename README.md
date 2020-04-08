@@ -1,4 +1,4 @@
-Platform for volunteer teaching, built on React, Node, Apollo Server and Material-UI.
+Platform for volunteer teaching, built on React, Node, Apollo Server and Material-UI.  
 Also, free and open-source, you can laucnh it and help many other people.
 
 ## How to run
