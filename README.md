@@ -1,12 +1,14 @@
-Platform for volunteer teaching, built on React, Node, React Native and Material-UI
+Platform for volunteer teaching, built on React, Node, Apollo Server and Material-UI.
+Also, free and open-source, you can laucnh it and help many other people.
 
 ## How to run
-1. clone the repository
-2. install dependencies with one of the following commands `yarn` or `npm install`
-3. run the react app with `yarn start`
-4. run the server with `yarn server`
+1. Clone the repository
+2. Install dependencies with one of the following commands `yarn` or `npm install`
+3. Run the postgres DB container `docker-compose up`
+4. Run the react app with `yarn start`
+5. Run the server with `yarn server`
 
-## Stack
+## Tech stack
 - React
 - React Native
 - Express
