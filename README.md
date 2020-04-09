@@ -1,15 +1,15 @@
 Platform for volunteer teaching, built on React, Node, Apollo Server and Material-UI.  
 Also, free and open-source, you can launch it and help many other people.
 
-## How to run
+## How to run (local development)
 1. Clone the repository
 2. Install dependencies with one of the following commands `yarn` or `npm install`
-3. Run the postgres DB container `docker-compose up`
+3. Run the postgres database container with `docker-compose up`
 4. Run the react app with `yarn start`
 5. Run the server with `yarn server`
 
 ## Tech stack
-- React
+- [React](https://reactjs.org/)
 - React Native
 - Express
 - Graphql
