@@ -10,9 +10,9 @@ Also, free and open-source, you can launch it and help many other people.
 
 ## Tech stack
 - [React](https://reactjs.org/)
-- React Native
-- Express
-- Graphql
+- [React Native](https://reactnative.dev/)
+- [Express](https://expressjs.com/)
+- [Graphql](https://graphql.org/)
 - Apollo + Apollo Server
 - Postgres
 - Material UI
