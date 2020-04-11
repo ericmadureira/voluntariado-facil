@@ -13,7 +13,7 @@ Also, free and open-source, you can launch it and help many other people.
 - [React Native](https://reactnative.dev/)
 - [Express](https://expressjs.com/)
 - [Graphql](https://graphql.org/)
-- Apollo + Apollo Server
+- [Apollo + Apollo Server](https://www.apollographql.com/)
 - Postgres
 - Material UI
 - [React i18n](https://react.i18next.com/)
