@@ -14,7 +14,7 @@ Also, free and open-source, you can launch it and help many other people.
 - [Express](https://expressjs.com/)
 - [Graphql](https://graphql.org/)
 - [Apollo + Apollo Server](https://www.apollographql.com/)
-- Postgres
+- [Postgres](https://www.postgresql.org/)
 - Material UI
 - [React i18n](https://react.i18next.com/)
 
