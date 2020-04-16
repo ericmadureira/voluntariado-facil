@@ -15,7 +15,7 @@ Also, free and open-source, you can launch it and help many other people.
 - [Graphql](https://graphql.org/)
 - [Apollo + Apollo Server](https://www.apollographql.com/)
 - [Postgres](https://www.postgresql.org/)
-- Material UI
+- [Material UI](https://material-ui.com/)
 - [React i18n](https://react.i18next.com/)
 
 ## Deployment
