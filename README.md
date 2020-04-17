@@ -21,3 +21,6 @@ Also, free and open-source, you can launch it and help many other people.
 ## Deployment
 - [To deploy the react app in Netlify](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/)
 - [To deploy the server in Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
+
+## Blog post
+- https://ericmadureira.github.io/2020/04/17/my-voluntary-teaching-platform.html
