@@ -17,6 +17,7 @@ Also, free and open-source, you can launch it and help many other people.
 - [Postgres](https://www.postgresql.org/)
 - [Material UI](https://material-ui.com/)
 - [React i18n](https://react.i18next.com/)
+- [React-hook-form](https://react-hook-form.com/)
 
 ## Deployment
 - [To deploy the react app in Netlify](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/)
